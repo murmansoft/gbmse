@@ -47,7 +47,8 @@ namespace WebGBMS_core
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        {
+        {  
+            // если проект в процессе разработки
             if (env.IsDevelopment())
             {
                 app.UseBrowserLink();
@@ -56,9 +57,11 @@ namespace WebGBMS_core
             }
             else
             {
+                // установка обработчика ошибок
                 app.UseExceptionHandler("/Error");
             }
 
+            // установка обработчика статических файлов
             app.UseStaticFiles();
 
             app.UseAuthentication();

@@ -4,6 +4,7 @@
     <UserSecretsId>aspnet-WebGBMS_core-A8A428A8-7ACA-4F35-BEC2-F32DDE9AE4BA</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="AdminLTE" Version="2.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
