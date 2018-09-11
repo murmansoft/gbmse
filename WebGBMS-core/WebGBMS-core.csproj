@@ -5,10 +5,16 @@
     <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Pages\Account\AccessDenied - Копировать.cshtml.cs" />
+    <Compile Remove="Pages\Account\ForgotPassword - Копировать.cshtml.cs" />
+    <Compile Remove="Pages\Account\Login - Копировать.cshtml.cs" />
     <Compile Remove="Pages\Account\Register - Копировать %282%29.cshtml.cs" />
     <Compile Remove="Pages\Account\Register - Копировать.cshtml.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="Pages\Account\AccessDenied - Копировать.cshtml" />
+    <Content Remove="Pages\Account\ForgotPassword - Копировать.cshtml" />
+    <Content Remove="Pages\Account\Login - Копировать.cshtml" />
     <Content Remove="Pages\Account\Register - Копировать %282%29.cshtml" />
     <Content Remove="Pages\Account\Register - Копировать.cshtml" />
   </ItemGroup>
